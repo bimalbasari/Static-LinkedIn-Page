@@ -31,13 +31,19 @@ a {
     width: 100%;
     position: fixed;
     z-index: 1;
-    padding: 1rem 0.5rem 0.5rem;
+    padding: 0.7rem 0.4rem 0.4rem ;
 
 }
 /* navigation Bar left side linkedin icon  style  */
+.left-icon,.right-icon{
+    width: 40%;
+}
+.left-icon{
+    margin-left: 3%;
+}
 .left-icon>p {
     background-color: #177ee6;
-    width: 2.1rem;
+    width: auto;
     height: 2.1rem;
     margin-right: 0.5rem;
     font-size: xx-large;
@@ -45,12 +51,13 @@ a {
     border-radius: 4px;
     text-align: center;
     font-weight: bold;
+    padding:1% 2% 1%;
    
 }
 /* navigation Bar left side input area  style  */
 
 .left-icon>form>input[type=text] {
-    width: 20rem;
+    width: 20vw;
     height: auto;
     box-sizing: border-box;
     background-image: url('./icon-svg/search.svg');
@@ -128,8 +135,9 @@ a {
     margin: 1rem;
     border-radius: 1rem;
     width: 100%;
-    height: 100%;
-    margin-top: 0% !important;
+    height: fit-content;
+    padding-top: 0!important;
+    margin-top: 0;
 }
 
 .user {
@@ -139,26 +147,30 @@ a {
     justify-content: space-evenly;
     text-align: center;
     width: 100%;
-    height: auto;
+    height:fit-content;   
+    padding-top: 0!important;
+    margin-top: 0 !important;
 }
 
 .user>img:nth-child(1) {
     width: 100%;
-    height: 3.5rem;
+    height:3.5rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    margin-top: 0 !important;
+    padding-top: 0!important;
 }
 
 .user>img:nth-child(2) {
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
-    position: absolute;
-    top: 6.2rem;
+    position:relative;
+    top: -2.4rem;
 }
 
 .user-name {
-    margin-top: 3rem;
+    margin-top: -1rem;
     margin-bottom: 0.3rem;
     font-size: medium;
     font-weight: bold;
@@ -210,7 +222,6 @@ a {
 }
 
 .user-connections>span>a:nth-child(2) {
-    text-decoration: none;
     font-size: 0.8rem;
 }
 
@@ -239,8 +250,8 @@ a {
     font-size: 0.7rem;
     justify-content: center;
     text-align: center;
-    width: 9rem;
-    padding-top: 0;
+    width: 60%;
+    padding-top: 0 20% 0 20%;
 }
 
 .premium>a:nth-child(2)>img {
@@ -325,7 +336,7 @@ a {
     border-radius: 0.6rem;
     width: 95%;
     height: auto;
-    margin: 0.8rem 0 0.8rem 0;
+    margin: 1rem 0 0.8rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -347,6 +358,9 @@ a {
     border: 1px solid var(--border-color);
     text-indent: 1rem;
 }
+.post-option{
+    width: 95%;
+}
 
 .post-option>a {
     display: flex;
@@ -366,7 +380,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0.5rem 0.7rem 1.4rem;
+    margin: 1rem 0.7rem 1.4rem;
 }
 
 .linkedin-news,
@@ -539,6 +553,7 @@ a {
 }
 /* TimeLine contenct footer space  styles */
 .contenct-footer {
+    width: 95%;
     display: flex;
     flex-direction: column;
 }
@@ -565,7 +580,7 @@ a {
     justify-content: space-around;
     align-items: center;
     padding: 0.5rem;
-    width: 100%;
+    width: 95%;
 
 }
 
