@@ -1,7 +1,7 @@
-# Linkdin clone
-This is the clone of linkdin made by HTML css only 
+# Linkdein clone
+This is the clone of linkedin made by HTML css only 
 ## Details
-organation :Testbook 
+Organization :Testbook 
 <br>
 Faculty: Yash sharma,  Prashant Dey , Nitesh Gupta
 <br>
